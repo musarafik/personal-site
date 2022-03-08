@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "GoodTimes";
+    src: url("../assets/good\ times\ rg.otf");
+}
+
+body {
+    text-align: center;
+    display: flex;
+}
+
+h1 {
+    color: #F1E0AC;
+    font-family: "GoodTimes"
+}
+
+.top-container {
+    background-color: #495371;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car {
+    height: 35%;
+    width: 35%;
+}
+
+.bottom-car {
+    position: relative
+}
+
+.subtitle {
+        color: #F1E0AC;
+        font-family: "GoodTimes";
+}
+
+.top-container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-text-car-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.top-car-city-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.city {
+    height: 60%;
+    width: 80%;
+}
